@@ -58,5 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Parse/RPM
 %{perl_vendorlib}/Parse/RPM/Spec.pm
 %{_mandir}/man3/Parse::RPM::Spec.3pm*
