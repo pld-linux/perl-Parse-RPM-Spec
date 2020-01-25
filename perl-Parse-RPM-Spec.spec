@@ -4,7 +4,6 @@
 
 %define		pdir	Parse
 %define		pnam	RPM-Spec
-%include	/usr/lib/rpm/macros.perl
 Summary:	Parse::RPM::Spec - Perl extension to parse RPM spec files
 Name:		perl-Parse-RPM-Spec
 Version:	0.08
